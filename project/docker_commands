@@ -1,11 +1,26 @@
 ## Docker commands used to build the application 
 # TODO: insert the docker build command
+sudo docker build -t techtrends .
+
 
 ## Docker commands used to run the application
 # TODO: insert the docker run command
+sudo docker run -d -p 7111:3111 techtrends
 
 ## Docker commands used to get the application logs
 # TODO: insert the docker logs command
+sudo docker logs 3d8f6405c6a2
 
 ## Logs from the container running the TechTrends application
 # TODO: paste logs from the Docker container 
+2021-08-29 08:11:46 INFO      * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+2021-08-29 08:13:54 INFO     127.0.0.1 - - [29/Aug/2021 08:13:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-08-29 08:13:54 INFO     127.0.0.1 - - [29/Aug/2021 08:13:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-08-29 08:13:58 INFO     Article- 2020 CNCF Annual Report retrieved
+2021-08-29 08:13:58 INFO     127.0.0.1 - - [29/Aug/2021 08:13:58] "[37mGET /1 HTTP/1.1[0m" 200 -
+2021-08-29 08:14:19 INFO     About page retrieved
+2021-08-29 08:14:19 INFO     127.0.0.1 - - [29/Aug/2021 08:14:19] "[37mGET /about HTTP/1.1[0m" 200 -
+2021-08-29 08:14:25 INFO     127.0.0.1 - - [29/Aug/2021 08:14:25] "[37mGET /create HTTP/1.1[0m" 200 -
+2021-08-29 08:14:28 INFO     127.0.0.1 - - [29/Aug/2021 08:14:28] "[37mGET / HTTP/1.1[0m" 200 -
+2021-08-29 08:14:30 INFO     Article- Kubernetes v1.20 Release Notes retrieved
+2021-08-29 08:14:30 INFO     127.0.0.1 - - [29/Aug/2021 08:14:30] "[37mGET /3 HTTP/1.1[0m" 200 -
