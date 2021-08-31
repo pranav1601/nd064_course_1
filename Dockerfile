@@ -1,6 +1,6 @@
 FROM python:2.7
 
-COPY techtrends/. /app
+COPY porject/techtrends/. /app
 #  defines the working directory within the container
 WORKDIR /app
 
