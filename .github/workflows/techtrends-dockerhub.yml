@@ -40,4 +40,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: pro1601/udacity:latest
+          tags: pro1601/techtrends:latest
